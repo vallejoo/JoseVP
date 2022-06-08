@@ -1,4 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
+$Titulos:'Montserrat', sans-serif;
+ $contenido: 'Space Mono', monospace;
+ 
+ *{  
+     padding: 0;
+     margin: 0;
+  }
+
+  .bg-barra{
+      background-color: #442D24;
+      font-family: $Titulos;
+  }
+
+  a{
+      text-decoration: none;
+  }
+  
+  .boton{
+      color: #442D24;
+      border: 1px solid #442D24;
+      padding: 10px 25px;
+      font-family: $contenido;
+      font-weight: bold;
+      border-radius: 30px;
+  }
+
+  /*-------------------------------------------------------------- 
+
+  Descripcion de mi
+
+  --------------------------------------------------------------*/
+  .mia{
+
+    background-color: #005184;
+    color: aliceblue;
+  }
+ /*-------------------------------------------------------------- 
+
+  Footer
+
+  --------------------------------------------------------------*/
+  i{
+    font-size: 3rem;
+
+  }
+
+  .footer2{
+      background-color: #A88859;
+      color: black;
+  }
+
+  .footer1{
+    background-color: #442D24;
 }
+
+  footer a{
+      color: black;
+  }
+/*-------------------------------------------------------------- 
+
+  pie de pagina
+
+  --------------------------------------------------------------*/
